@@ -1,0 +1,37 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.responsive {
+    width: 100%;
+    height: auto;
+}
+.nav-link {
+    border: none;
+    background: none;
+}
+
+.header {
+    text-align: center;
+}
+
+.carousel-image {
+    margin: auto;
+    border: maroon;
+    border-style: solid;
+}
+
+/* #body {
+    margin-left: 10%;
+    margin-right: 10%;
+} */
+
+/* #carouselExampleCaptions {
+    border-style: solid;
+    margin: auto;
+} */
+
+/* .carousel-button {
+    margin: auto;
+    text-decoration-color: maroon;
+} */
