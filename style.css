@@ -4,7 +4,6 @@ html {
 
 .responsive {
     width: 100%;
-    height: auto;
 }
 .nav-link {
     border: none;
@@ -13,6 +12,7 @@ html {
 
 .header {
     text-align: center;
+    margin: auto;
 }
 
 .carousel-image {
@@ -20,6 +20,17 @@ html {
     border: maroon;
     border-style: solid;
 }
+
+.container {
+    text-align: center;
+    align-content: center;
+}
+
+li {
+    list-style-type: none;    
+}
+
+
 
 /* #body {
     margin-left: 10%;

@@ -25,10 +25,10 @@
                     <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">About Me</a>
+                    <a class="nav-link" href="#aboutMe">About Me</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Contact</a>
+                    <a class="nav-link" href="#contact">Contact</a>
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
@@ -114,16 +114,15 @@
     </div>
     <br>
     <br>
-    <div class="container">
+    <!-- About Me -->
+    <div class="container" id="aboutMe">
         <div class="row">
             <div class="col-md-6">
-                <img src="profile_photo.jpg" alt="Profile Picture" class="responsive">
+                <img src="profile_picture_2.jpg" alt="Profile Picture" class="responsive">
             </div>
             <div class="col-md-6">
                 <div class="row">
-                    <h1>About Me</h1>
-                </div>
-                <div class="row">
+                    <h1 class="header">About Me</h1>
                     <p id="body">I am a full-stack web developer based in Washington, D.C. I started my career as a
                         Audio/Visual
                         specialist for the Smithsonian Institution in Washington, D.C. From there, I moved into the
@@ -132,10 +131,40 @@
                         experience in the
                         IT/programming industry.</p>
                 </div>
+                <div class="row">
+                    <h1 class="header">Resume</h1>
+                </div>
+                <div>
+                    <h3><a
+                            href="https://docs.google.com/document/d/1L2JKNTB34svqpxqrxDHc8TggxiVzMxU5jKMiqmJ75bg/edit?usp=sharing">Google
+                            Doc</a></h3>
+                </div>
             </div>
         </div>
     </div>
-
+    <br>
+    <br>
+    <!-- Contact -->
+    <div class="container" id="contact">
+        <h1>Contact</h1>
+        <ul>
+            <li><a href="https://github.com/seahopki12" target="_blank">GitHub</a></li>
+            <li><a href="https://linkedin.com/in/seahopki12" target="_blank">Linkedin</a></li>
+            <li>
+                <span>Email Address: </span><a href="mailto:seahopki12@gmail.com">seahopki12@gmail.com</a>
+            </li>
+            <li>
+                <span>Phone Number: </span><a href="tel:17573278855">(757)327-8855</a>
+            </li>
+        </ul>
+    </div>
+    <br>
+    <br>
+    <!-- Portfolio -->
+    <h1 id="portfolioTitle" class="header"></h1>
+    <div id="portfolioGif" class="container">
+        <img src="Vacation Planner.gif">
+    </div>
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
@@ -146,6 +175,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
         integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
         crossorigin="anonymous"></script>
+    <script src="script.js"></script>
 </body>
 
 </html>
