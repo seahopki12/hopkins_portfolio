@@ -27,6 +27,12 @@ let portfolio = [{
     gif: "Assets/Password Generator.gif",
     github: "https://github.com/seahopki12/password_generator",
     gitpage: "https://seahopki12.github.io/password_generator/"
+},
+{
+    name: "Eat-Da-Burger!;",
+    gif: "Assets/Eat-Da-Burger!.gif",
+    github: "https://github.com/seahopki12/burger",
+    gitpage: "https://gentle-wave-77495.herokuapp.com/"
 }];
 
 $(".dropdown-item").click(function(){
@@ -52,5 +58,8 @@ $(".dropdown-item").click(function(){
     } else if (portfolioTxt === "Password Generator") {
         $("#gitHubLink").attr("href", "https://github.com/seahopki12/password_generator");
         $("#gitPageLink").attr("href", "https://seahopki12.github.io/password_generator/" );
-    }; 
+    } else if (portfolioTxt === "Eat-Da-Burger!") {
+        $("#gitHubLink").attr("href", "https://github.com/seahopki12/burger");
+        $("#gitPageLink").attr("href", "https://gentle-wave-77495.herokuapp.com/" );
+    };
 });
