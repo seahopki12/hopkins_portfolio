@@ -29,10 +29,16 @@ let portfolio = [{
     gitpage: "https://seahopki12.github.io/password_generator/"
 },
 {
-    name: "Eat-Da-Burger!;",
+    name: "Eat-Da-Burger!",
     gif: "Assets/Eat-Da-Burger!.gif",
     github: "https://github.com/seahopki12/burger",
     gitpage: "https://gentle-wave-77495.herokuapp.com/"
+},
+{
+    name: "Holiday Wish List",
+    gif: "Assets/Wish List.gif",
+    github: "https://github.com/seahopki12/holiday_wish_list",
+    gitpage: "https://project-two-gwu.herokuapp.com/"
 }];
 
 $(".dropdown-item").click(function(){
@@ -61,5 +67,8 @@ $(".dropdown-item").click(function(){
     } else if (portfolioTxt === "Eat-Da-Burger!") {
         $("#gitHubLink").attr("href", "https://github.com/seahopki12/burger");
         $("#gitPageLink").attr("href", "https://gentle-wave-77495.herokuapp.com/" );
-    };
+    } else if (portfolioTxt === "Holiday Wish List") {
+        $("#gitHubLink").attr("href", "https://github.com/seahopki12/holiday_wish_list");
+        $("#gitPageLink").attr("href", "https://project-two-gwu.herokuapp.com/");
+    }
 });
