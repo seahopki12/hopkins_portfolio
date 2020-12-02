@@ -2,8 +2,17 @@ html {
     scroll-behavior: smooth;
 }
 
+body {
+    background-color: wheat;
+}
+
 img {
-    border-style: groove;
+    /* border-style: groove; */
+    border-radius: 5px;
+}
+
+nav {
+    background-color: wheat;
 }
 
 .responsive {
@@ -32,24 +41,10 @@ li {
     list-style-type: none;    
 }
 
+p {
+    font-size: large;
+}
+
 #portfolio {
     visibility: hidden;
 }
-
-
-
-
-/* #body {
-    margin-left: 10%;
-    margin-right: 10%;
-} */
-
-/* #carouselExampleCaptions {
-    border-style: solid;
-    margin: auto;
-} */
-
-/* .carousel-button {
-    margin: auto;
-    text-decoration-color: maroon;
-} */
